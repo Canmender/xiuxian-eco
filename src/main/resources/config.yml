@@ -6,11 +6,11 @@ currencies:
     symbol: '灵石'
     icon: GOLD_INGOT
     starting-balance: 0
-    color: '&' + '6'
+    color: &6'
 
   xianyuan:
     name: '仙源'
     symbol: '仙源'
     icon: NETHER_STAR
     starting-balance: 0
-    color: '&' + '5'
+    color: &5'
