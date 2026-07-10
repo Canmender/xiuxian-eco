@@ -1,0 +1,15 @@
+name: XiuXianEco
+version: 1.0.0
+main: com.xiuxian.eco.XiuXianEco
+api-version: 1.21
+softdepend:
+  - PlaceholderAPI
+  - Vault
+commands:
+  eco:
+    description: Economy command
+    usage: /eco [bal|give|take|set|pay|reload]
+permissions:
+  xiueco.admin:
+    description: Admin permission
+    default: op

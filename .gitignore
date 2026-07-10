@@ -1,0 +1,9 @@
+build/
+.gradle/
+.idea/
+*.iml
+*.jar
+.vscode/
+.DS_Store
+Thumbs.db
+temp_jar/

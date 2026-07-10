@@ -1,0 +1,16 @@
+# XiuXianEco - Economy System
+
+currencies:
+  lingshi:
+    name: '灵石'
+    symbol: '灵石'
+    icon: GOLD_INGOT
+    starting-balance: 0
+    color: '&' + '6'
+
+  xianyuan:
+    name: '仙源'
+    symbol: '仙源'
+    icon: NETHER_STAR
+    starting-balance: 0
+    color: '&' + '5'
