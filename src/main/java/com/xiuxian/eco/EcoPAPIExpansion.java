@@ -18,12 +18,10 @@ public class EcoPAPIExpansion extends PlaceholderExpansion {
 
     @Override
     public String onPlaceholderRequest(Player player, String identifier) {
-        if (player == null) return "";
-        EcoManager eco = plugin.getEcoManager();
-        Double balance = eco.getBalance(player, identifier);
-        if (balance == null) return "0";
-        if (balance == (long) balance.doubleValue()) {
-            return String.format("%,d", (long) balance.doubleValue());
+        if (player == null) return "0";
+        double balance = plugin.getEcoManager().getBalance(player, identifier);
+        if (balance == (long) balance) {
+            return String.format("%,d", (long) balance);
         }
         return String.format("%,.2f", balance);
     }
